@@ -7,16 +7,16 @@ class Home extends StatelessWidget {
         child: Container(
       alignment: Alignment.center,
       color: Colors.deepOrangeAccent,
-      child: Text("Pizza", 
-      textDirection: TextDirection.ltr,
-      style: TextStyle(
-        fontSize: 80.0,
-        decoration: TextDecoration.none,
-        fontFamily: 'Oxygen',
-        fontWeight: FontWeight.bold,
+      child: Text(
+        "Pizza",
+        textDirection: TextDirection.ltr,
+        style: TextStyle(
+          fontSize: 80.0,
+          decoration: TextDecoration.none,
+          fontFamily: 'Oxygen',
+          fontWeight: FontWeight.w300,
         ),
       ),
-    )
-    );
+    ));
   }
 }
