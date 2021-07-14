@@ -12,8 +12,8 @@ class Home extends StatelessWidget {
       style: TextStyle(
         fontSize: 80.0,
         decoration: TextDecoration.none,
-        // fontFamily: 'Oxygen',
-        // fontWeight: FontWeight.w300,
+        fontFamily: 'Oxygen',
+        fontWeight: FontWeight.bold,
         ),
       ),
     )
